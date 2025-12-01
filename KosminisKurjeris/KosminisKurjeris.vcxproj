@@ -127,7 +127,37 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="KosminisKurjeris.cpp" />
+    <ClCompile Include="EasyMapStrategy.cpp" />
+    <ClCompile Include="EventFactory.cpp" />
+    <ClCompile Include="FuelLeakEvent.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="GameMap.cpp" />
+    <ClCompile Include="HardMapStrategy.cpp" />
+    <ClCompile Include="MediumMapStrategy.cpp" />
+    <ClCompile Include="NavigationErrorEvent.cpp" />
+    <ClCompile Include="PiratesEvent.cpp" />
+    <ClCompile Include="Planet.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="StormEvent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EasyMapStrategy.h" />
+    <ClInclude Include="EventFactory.h" />
+    <ClInclude Include="FuelLeakEvent.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="GameMap.h" />
+    <ClInclude Include="HardMapStrategy.h" />
+    <ClInclude Include="GameConstants.h" />
+    <ClInclude Include="IMapStrategy.h" />
+    <ClInclude Include="IEvent.h" />
+    <ClInclude Include="MediumMapStrategy.h" />
+    <ClInclude Include="NavigationErrorEvent.h" />
+    <ClInclude Include="PiratesEvent.h" />
+    <ClInclude Include="Route.h" />
+    <ClInclude Include="Planet.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="StormEvent.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
